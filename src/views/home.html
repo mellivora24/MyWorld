@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thế giới của tớ!</title>
+    <link rel="stylesheet" href="/src/styles/home.css" />
+    <link rel="icon" type="image/png" href="/public/media/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <label id="text">Hãy thay đổi độ phân giải để xem thế giới xinh đẹp thế nào!</label>
+    <div id="a" class="fixed-lable">
+      <select id="resolution">
+        <option value="144p">144p</option>
+        <option value="480p">480p</option>
+        <option value="720p">720p</option>
+        <option value="1080p">1080p</option>
+      </select>
+      <button onclick="view()">Xem nào!</button>
+    </div>
+
+    <div id="compoments">
+      <img id="sun" src="/public/media/144p/sun_144.png" alt="sun" />
+      <img id="moon" src="/public/media/144p/moon_144.png" alt="moon" />
+      <img id="earth" src="/public/media/144p/earth_144.png" alt="earth" />
+    </div>
+
+    <script src="/src/js/home.js"></script>
+  </body>
+</html>

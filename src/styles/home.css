@@ -1,0 +1,81 @@
+html {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #f68585;
+}
+
+body {
+  background-color: rgb(7, 7, 7);
+  background-image: url(/public/media/144p/background_144.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+label {
+  font-size: 3vw;
+  display: flex;
+  margin-top: 1%;
+  align-content: center;
+}
+
+select {
+  margin-top: 10%;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #4800ff;
+  border: none;
+}
+
+button {
+  margin-top: 10%;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #4800ff;
+}
+
+option {
+  background-color: rgb(248, 189, 255);
+}
+
+.fixed-lable {
+  z-index: 9999999;
+}
+
+#sun, #moon, #earth {
+  z-index: 9999;
+  position: fixed;
+}
+
+#sun {
+  height: 13em;
+  width: 24em;
+  top: 15%;
+  right: 0%;
+  transform: translate(-5%, -5%);
+}
+
+#earth {
+  height: 540px;
+  width: 960px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#moon {
+  height: 4.5em;
+  width: 8em;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}

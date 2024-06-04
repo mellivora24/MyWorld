@@ -1,2 +1,2 @@
-#Xin chào, mình là Lửng!
+# Xin chào, mình là Lửng!
 ### Code dở đừng chê nhé :(
